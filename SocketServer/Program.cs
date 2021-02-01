@@ -32,8 +32,7 @@ namespace SocketServer
 				.Register(new NumberHandler(stateStorage))
 				.Register(new ListCommandHandler(logger, stateStorage))
 				.Register(new ExitCommandHandler(logger, stateStorage))
-				.Register(new UnknownCommandHandler()); ;
-
+				.Register(new UnknownCommandHandler());
 
 			using var socketServer = new Services.SocketServer(logger, stateStorage, pipeline);
 			socketServer.Start(port);

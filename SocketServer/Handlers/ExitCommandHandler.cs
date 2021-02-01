@@ -39,6 +39,6 @@ namespace SocketServer.Handlers
 			return false;
 		}
 
-		private void RemoveFromClientFromStateStorage(string ip) => _stateStorage.Clients.TryRemove(ip, out var _);
+		private void RemoveFromClientFromStateStorage(string ip) => _stateStorage.Clients.TryRemove(ip, out _);
 	}
 }

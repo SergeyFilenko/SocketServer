@@ -25,7 +25,7 @@ namespace SocketServer.Services
 		}
 
 		/// <summary>
-		/// Spins an infinity loop and waiting for connection
+		/// Spins an infinity loop and waits for a	 connection
 		/// </summary>
 		/// <param name="port">Port to listen</param>
 		public void Start(int port)
