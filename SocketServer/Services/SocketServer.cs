@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Sockets;
+using System.Text;
 using System.Threading;
 using Serilog;
 using SocketServer.Handlers;
@@ -63,6 +64,7 @@ namespace SocketServer.Services
 
 			var state = new ClientObject(socket);
 			_stateStorage.Clients.TryAdd(socket.RemoteEndPoint.ToString(), state);
+			SendWelcomeMessage(state.ConnectionData);
 			socket.BeginReceive(state.ConnectionData.Buffer, 0, state.ConnectionData.Buffer.Length, SocketFlags.None, ReceiveCallback, state.ConnectionData);
 		}
 
@@ -83,6 +85,23 @@ namespace SocketServer.Services
 				if (socket.Connected)
 					socket.BeginReceive(connectionData.Buffer, 0, connectionData.Buffer.Length, SocketFlags.None, ReceiveCallback, connectionData);
 			}
+		}
+
+		private void SendWelcomeMessage(ConnectionData connectionData)
+		{
+			var message = $"Welcome to simple socket server. Available command: 'any integer', 'list', 'exit'{Environment.NewLine}";
+			var bytes = Encoding.ASCII.GetBytes(message);
+			connectionData.Socket.BeginSend(
+				bytes,
+				0,
+				bytes.Length,
+				SocketFlags.None,
+				ar =>
+				{
+					var socket = (Socket) ar.AsyncState;
+					socket.EndSend(ar);
+				},
+				connectionData.Socket);
 		}
 
 		/// <summary>
