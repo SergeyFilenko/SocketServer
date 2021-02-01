@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SocketServer": {
+      "commandName": "Project",
+      "commandLineArgs": "23"
+    }
+  }
+}

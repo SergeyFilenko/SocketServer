@@ -1,0 +1,94 @@
+2021-02-01 06:20:41.840 +02:00 [Fatal] Port is not specified. Pass valid port via args. Ex: dotnet SocketServer 23
+2021-02-01 06:22:29.078 +02:00 [Fatal] Port is not specified. Supply a valid port via command line args. Ex: dotnet SocketServer.dll 23
+2021-02-01 06:22:54.646 +02:00 [Information] Listening on 0.0.0.0:23
+2021-02-01 06:24:05.456 +02:00 [Error] Unhandled exception
+System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'port')
+   at System.Net.IPEndPoint..ctor(IPAddress address, Int32 port)
+   at SocketServer.SocketServer.Start(Int32 port) in C:\Users\sergeyfilenko_VM\source\repos\SocketServer\SocketServer\SocketServer.cs:line 30
+2021-02-01 06:24:37.886 +02:00 [Fatal] Failed to parse port from 'test'
+2021-02-01 07:07:16.409 +02:00 [Information] Listening on 0.0.0.0:23
+2021-02-01 07:07:27.862 +02:00 [Verbose] 127.0.0.1:50264 connected
+2021-02-01 07:08:42.347 +02:00 [Information] Listening on 0.0.0.0:23
+2021-02-01 07:08:46.191 +02:00 [Verbose] 127.0.0.1:50270 connected
+2021-02-01 07:08:59.681 +02:00 [Verbose] 127.0.0.1:50276 connected
+2021-02-01 07:18:33.850 +02:00 [Information] Listening on 0.0.0.0:23
+2021-02-01 07:20:16.860 +02:00 [Information] Listening on 0.0.0.0:23
+2021-02-01 07:20:29.139 +02:00 [Verbose] 127.0.0.1:50295 connected
+2021-02-01 07:21:00.629 +02:00 [Information] Listening on 0.0.0.0:23
+2021-02-01 07:21:06.943 +02:00 [Verbose] 127.0.0.1:50302 connected
+2021-02-01 07:28:20.434 +02:00 [Information] Listening on 0.0.0.0:23
+2021-02-01 07:28:26.593 +02:00 [Verbose] 127.0.0.1:50317 connected
+2021-02-01 07:29:17.229 +02:00 [Information] Listening on 0.0.0.0:23
+2021-02-01 07:29:21.963 +02:00 [Verbose] 127.0.0.1:50321 connected
+2021-02-01 07:29:55.509 +02:00 [Information] Listening on 0.0.0.0:23
+2021-02-01 07:30:01.542 +02:00 [Verbose] 127.0.0.1:50326 connected
+2021-02-01 07:32:48.936 +02:00 [Information] Listening on 0.0.0.0:23
+2021-02-01 07:32:55.377 +02:00 [Verbose] 127.0.0.1:50362 connected
+2021-02-01 07:32:55.385 +02:00 [Warning] IAC package spoted from 127.0.0.1:50362 - FF-FB-1F Server won't reply with proper answer.
+2021-02-01 07:32:55.387 +02:00 [Warning] IAC package spoted from 127.0.0.1:50362 - FF-FB-20 Server won't reply with proper answer.
+2021-02-01 07:32:55.388 +02:00 [Warning] IAC package spoted from 127.0.0.1:50362 - FF-FB-18 Server won't reply with proper answer.
+2021-02-01 07:32:55.390 +02:00 [Warning] IAC package spoted from 127.0.0.1:50362 - FF-FB-27 Server won't reply with proper answer.
+2021-02-01 07:32:55.392 +02:00 [Warning] IAC package spoted from 127.0.0.1:50362 - FF-FD-01 Server won't reply with proper answer.
+2021-02-01 07:32:55.393 +02:00 [Warning] IAC package spoted from 127.0.0.1:50362 - FF-FB-03 Server won't reply with proper answer.
+2021-02-01 07:32:55.394 +02:00 [Warning] IAC package spoted from 127.0.0.1:50362 - FF-FD-03 Server won't reply with proper answer.
+2021-02-01 07:33:38.235 +02:00 [Information] Listening on 0.0.0.0:23
+2021-02-01 07:33:41.721 +02:00 [Verbose] 127.0.0.1:50363 connected
+2021-02-01 07:33:41.727 +02:00 [Warning] IAC package spotted from 127.0.0.1:50363 - FF-FB-1F Server won't reply with a proper answer.
+2021-02-01 07:33:41.729 +02:00 [Warning] IAC package spotted from 127.0.0.1:50363 - FF-FB-20 Server won't reply with a proper answer.
+2021-02-01 07:33:41.730 +02:00 [Warning] IAC package spotted from 127.0.0.1:50363 - FF-FB-18 Server won't reply with a proper answer.
+2021-02-01 07:33:41.732 +02:00 [Warning] IAC package spotted from 127.0.0.1:50363 - FF-FB-27 Server won't reply with a proper answer.
+2021-02-01 07:33:41.734 +02:00 [Warning] IAC package spotted from 127.0.0.1:50363 - FF-FD-01 Server won't reply with a proper answer.
+2021-02-01 07:33:41.736 +02:00 [Warning] IAC package spotted from 127.0.0.1:50363 - FF-FB-03 Server won't reply with a proper answer.
+2021-02-01 07:33:41.737 +02:00 [Warning] IAC package spotted from 127.0.0.1:50363 - FF-FD-03 Server won't reply with a proper answer.
+2021-02-01 07:34:09.855 +02:00 [Verbose] 'list' command from client 127.0.0.1:50363
+2021-02-01 07:34:12.979 +02:00 [Verbose] 'list' command from client 127.0.0.1:50363
+2021-02-01 07:34:19.082 +02:00 [Verbose] 127.0.0.1:50370 connected
+2021-02-01 07:34:19.095 +02:00 [Warning] IAC package spotted from 127.0.0.1:50370 - FF-FB-1F Server won't reply with a proper answer.
+2021-02-01 07:34:19.096 +02:00 [Warning] IAC package spotted from 127.0.0.1:50370 - FF-FB-20 Server won't reply with a proper answer.
+2021-02-01 07:34:19.098 +02:00 [Warning] IAC package spotted from 127.0.0.1:50370 - FF-FB-18 Server won't reply with a proper answer.
+2021-02-01 07:34:19.100 +02:00 [Warning] IAC package spotted from 127.0.0.1:50370 - FF-FB-27 Server won't reply with a proper answer.
+2021-02-01 07:34:19.103 +02:00 [Warning] IAC package spotted from 127.0.0.1:50370 - FF-FD-01 Server won't reply with a proper answer.
+2021-02-01 07:34:19.105 +02:00 [Warning] IAC package spotted from 127.0.0.1:50370 - FF-FB-03 Server won't reply with a proper answer.
+2021-02-01 07:34:19.109 +02:00 [Warning] IAC package spotted from 127.0.0.1:50370 - FF-FD-03 Server won't reply with a proper answer.
+2021-02-01 07:37:48.641 +02:00 [Information] Listening on 0.0.0.0:23
+2021-02-01 07:37:51.965 +02:00 [Verbose] 127.0.0.1:50380 connected
+2021-02-01 07:37:51.973 +02:00 [Warning] IAC package spotted from 127.0.0.1:50380 - FF-FB-1F Server won't reply with a proper answer.
+2021-02-01 07:37:51.974 +02:00 [Warning] IAC package spotted from 127.0.0.1:50380 - FF-FB-20 Server won't reply with a proper answer.
+2021-02-01 07:37:51.976 +02:00 [Warning] IAC package spotted from 127.0.0.1:50380 - FF-FB-18 Server won't reply with a proper answer.
+2021-02-01 07:37:51.977 +02:00 [Warning] IAC package spotted from 127.0.0.1:50380 - FF-FB-27 Server won't reply with a proper answer.
+2021-02-01 07:37:51.979 +02:00 [Warning] IAC package spotted from 127.0.0.1:50380 - FF-FD-01 Server won't reply with a proper answer.
+2021-02-01 07:37:51.981 +02:00 [Warning] IAC package spotted from 127.0.0.1:50380 - FF-FB-03 Server won't reply with a proper answer.
+2021-02-01 07:37:51.982 +02:00 [Warning] IAC package spotted from 127.0.0.1:50380 - FF-FD-03 Server won't reply with a proper answer.
+2021-02-01 07:38:22.951 +02:00 [Verbose] 127.0.0.1:50385 connected
+2021-02-01 07:38:26.799 +02:00 [Verbose] 'list' command from client 127.0.0.1:50385
+2021-02-01 07:38:30.444 +02:00 [Verbose] 'exit' command from client 127.0.0.1:50385
+2021-02-01 07:38:30.447 +02:00 [Verbose] 127.0.0.1:50385 disconnected
+2021-02-01 07:39:15.908 +02:00 [Information] Listening on 0.0.0.0:23
+2021-02-01 07:39:42.376 +02:00 [Information] Listening on 0.0.0.0:23
+2021-02-01 07:39:50.725 +02:00 [Verbose] 127.0.0.1:50388 connected
+2021-02-01 07:39:50.733 +02:00 [Warning] IAC package spotted from 127.0.0.1:50388 - FF-FB-1F Server won't reply with a proper answer.
+2021-02-01 07:39:50.734 +02:00 [Warning] IAC package spotted from 127.0.0.1:50388 - FF-FB-20 Server won't reply with a proper answer.
+2021-02-01 07:39:50.736 +02:00 [Warning] IAC package spotted from 127.0.0.1:50388 - FF-FB-18 Server won't reply with a proper answer.
+2021-02-01 07:39:50.738 +02:00 [Warning] IAC package spotted from 127.0.0.1:50388 - FF-FB-27 Server won't reply with a proper answer.
+2021-02-01 07:39:50.739 +02:00 [Warning] IAC package spotted from 127.0.0.1:50388 - FF-FD-01 Server won't reply with a proper answer.
+2021-02-01 07:39:50.741 +02:00 [Warning] IAC package spotted from 127.0.0.1:50388 - FF-FB-03 Server won't reply with a proper answer.
+2021-02-01 07:39:50.742 +02:00 [Warning] IAC package spotted from 127.0.0.1:50388 - FF-FD-03 Server won't reply with a proper answer.
+2021-02-01 07:39:53.595 +02:00 [Verbose] 'list' command from client 127.0.0.1:50388
+2021-02-01 07:39:58.231 +02:00 [Verbose] 'list' command from client 127.0.0.1:50388
+2021-02-01 07:40:00.887 +02:00 [Verbose] 'list' command from client 127.0.0.1:50388
+2021-02-01 07:40:05.399 +02:00 [Verbose] 'list' command from client 127.0.0.1:50388
+2021-02-01 07:40:35.768 +02:00 [Verbose] 'list' command from client 127.0.0.1:50388
+2021-02-01 07:40:39.455 +02:00 [Verbose] 'list' command from client 127.0.0.1:50388
+2021-02-01 07:41:45.131 +02:00 [Verbose] 'list' command from client 127.0.0.1:50388
+2021-02-01 07:42:46.558 +02:00 [Information] Listening on 0.0.0.0:23
+2021-02-01 07:42:57.470 +02:00 [Verbose] 127.0.0.1:50400 connected
+2021-02-01 07:42:57.476 +02:00 [Warning] IAC package spotted from 127.0.0.1:50400 - FF-FB-1F Server won't reply with a proper answer.
+2021-02-01 07:42:57.478 +02:00 [Warning] IAC package spotted from 127.0.0.1:50400 - FF-FB-20 Server won't reply with a proper answer.
+2021-02-01 07:42:57.479 +02:00 [Warning] IAC package spotted from 127.0.0.1:50400 - FF-FB-18 Server won't reply with a proper answer.
+2021-02-01 07:42:57.481 +02:00 [Warning] IAC package spotted from 127.0.0.1:50400 - FF-FB-27 Server won't reply with a proper answer.
+2021-02-01 07:42:57.482 +02:00 [Warning] IAC package spotted from 127.0.0.1:50400 - FF-FD-01 Server won't reply with a proper answer.
+2021-02-01 07:42:57.484 +02:00 [Warning] IAC package spotted from 127.0.0.1:50400 - FF-FB-03 Server won't reply with a proper answer.
+2021-02-01 07:42:57.485 +02:00 [Warning] IAC package spotted from 127.0.0.1:50400 - FF-FD-03 Server won't reply with a proper answer.
+2021-02-01 07:43:13.080 +02:00 [Verbose] 'list' command from client 127.0.0.1:50400
+2021-02-01 07:43:15.678 +02:00 [Verbose] 'list' command from client 127.0.0.1:50400
+2021-02-01 07:43:17.255 +02:00 [Verbose] 'list' command from client 127.0.0.1:50400
